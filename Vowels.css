@@ -33,7 +33,7 @@ body{
   border-bottom: 2px solid #c2dfff;
   color: #739ac4;
   font-size: 1.5em;
-
+  overflow-x: scroll;
 }
 
 #header{
