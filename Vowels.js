@@ -4,7 +4,7 @@ document.getElementById("vowel-number").innerText = "0";
 
 letterInput.addEventListener("keyup", function(){
 	var str = letterInput.value;
-    var patt1 = /[aeiou]/g;
+    var patt1 = /[aeiouAEIOU]/g;
     let result = str.match(patt1);
     
     if(!result){
